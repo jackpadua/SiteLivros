@@ -8,73 +8,94 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header class="header">
-    <a href="/" class="logo">Colleen Hoover</a>
-    <nav>
-        <ul class="menu">
-            <li><a href="Livros.html">Livros</a></li>
-            <li><a href="/">Sobre</a></li>
-            <li><a href="/">Contato</a></li>
-        </ul>
-    </nav>
-   </header>
-   <h1> Colleen Hoover</h1>
-   <section class="flex">
-    <div >
-         <img src="imagens/ateoveraoterminar.jpg" alt="livros" >
-        
-    </div>
-    <div >
-          <img src="imagens/eassimqueacaba.jpg" alt="livros">
-        <p>Legenda</p>
-    </div>
-    <div>
-          <img src="imagens/eassimquecomeca.jpg" alt="livros">
-        <p>Legenda</p>
-    </div>
-    <div>
-        <img src="imagens/oladofeiodoamor.jpg" alt="livros">
-        <p>Legenda</p>
-    </div>
-    <div>
-        <img src="imagens/verity.jpg" alt="livros">
-        <p>Legenda</p>
-    </div>
-    <div>
-        <img src="imagens/novembro9.jpg" alt="livros">
-        <p>Legenda</p>
-    </div>
-    <div>
-        <img src="imagens/todassuasimpericoes.jpg" alt="livros">
-        <p>Legenda</p>
-    </div>
-    <div>
-        <img src="imagens/senaofossevoce.jpg" alt="livros">
-        <p>Legenda</p>
-    </div>
-    <div>
-        <img src="imagens/talvezumdia.jpg" alt="livros">
-        <p>Legenda</p>
-    </div>
-    <div>
-        <img src="imagens/tardedemais.jpg" alt="livros">
-        <p>Legenda</p>
-    </div>
-    <div>
-        <img src="imagens/asmilpartesdomeucoracao.jpg" alt="livros">
-        <p>Legenda</p>
-    </div>
 
-    <div>
-        <img src="imagens/confesse.jpg" alt="livros">
-        <p>Legenda</p>
+    <nav class="navbar">
+        <ul class="elementos">
+          <li class="nav-el">PRINCIPAL</li>
+          <li class="nav-el">AUTORES</li>
+          <li class="nav-el">GÊNERO</li>
+          <li class="nav-el">SOBRE</li>
+        </ul>
+        <div class="botao">
+            <div class="linhas">
+              <div class="span"></div>
+              <div class="span"></div>
+              <div class="span"></div>
+            </div>
+          </div>
+    </nav>
+      
+    <div class="container">
+        <h1 class="heading"> Pesquisar Livros</h1>
+
+        <input type="text" placeholder="escreva aqui..." id="search-box">
+
+        <div class="image-container">
+            <div class="image" data-title="as mil partes do meu coração">
+            <img src="imagens/asmilpartesdomeucoracao.jpg"
+                alt="">
+            <h3></h3>
+            </div>
+
+            <div class="image" data-title="ateoveraoterminar">
+                <img src="imagens/ateoveraoterminar.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="image" data-title="confesse">
+                <img src="imagens/confesse.jpg" alt="">
+                <h3></h3>
+            </div>
+
+
+            <div class="image" data-title="carro">
+                <img src="imagens/eassimqueacaba.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="image" data-title="gatinho">
+                <img src="imagens/eassimquecomeca.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="image" data-title="comida">
+                <img src="imagens/layla.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="image" data-title="carro">
+                <img src="imagens/senaofossevoce.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="image" data-title="comida">
+                <img src="imagens/novembro9.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="image" data-title="gatinho">
+                <img src="imagens/oladofeiodoamor.jpg" alt="">
+                <h3></h3>
+            </div>
+            <div class="image" data-title="gatinho">
+                <img src="imagens/tardedemais.jpg" alt="">
+                <h3></h3>
+            </div>
+            <div class="image" data-title="gatinho">
+                <img src="imagens/talvezumdia.jpg" alt="">
+                <h3></h3>
+            </div>
+            <div class="image" data-title="gatinho">
+                <img src="imagens/verity.jpg" alt="">
+                <h3></h3>
+            </div>
+            <div class="image" data-title="gatinho">
+                <img src="imagens/todassuasimpericoes.jpg" alt="">
+                <h3></h3>
+            </div>
+        </div>
     </div>
-    <div>
-        <img src="imagens/layla.jpg" alt="livros">
-        <p>Legenda</p>
-    </div>
-   
-   </section>
-   </div>
+        <script src="js/main.js"></script>
+        <script src="script.js"></script>
 </body>
 </html>
